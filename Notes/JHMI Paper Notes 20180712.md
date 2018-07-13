@@ -4,6 +4,14 @@
 > [name=Shao-Ting Chiu]
 > 
 
+:::success
+**Objectives**
+- [x] Unvderstand redox potential 
+    - [x] Ishaemia and reperfusion
+    - [x] Learn how to use Sympy to solve equations
+- [x] Read ROS-induced Mitochondrial membrane potential oscillation
+:::
+
 # BIOENERGETICS 4
 
 :::success

@@ -19,13 +19,14 @@ Today's topic is **network synchronization**.
 
 > [TOC]
 
-## Synchronization of coupling oscillator
 
-## Cluster synchornization in networks of coupled nonidentical dynamical system
+# Cluster synchornization in networks of coupled nonidentical dynamical system
 
-## Synchronization in complex networks
+# Synchronization in complex networks
 
-### Definition of Synchronization
+# Synchronization of coupling oscillator
+
+## Definition of Synchronization
 
 :::info
 **Synchronization**
@@ -36,7 +37,9 @@ A set of coupled oscillators are said to be *synchronized* if the difference bet
 
 
 
-### Van der Pol oscillatior
+## Van der Pol oscillatior
+
+### Single Van der Pol Oscillator
 
 $$\begin{align}
 \dot{x_{i}} &= \mu (x_{i} - y_{i} - \frac{1}{3}x_{i}^{3}) \\
@@ -61,14 +64,14 @@ $\Rightarrow|\dot{y_j} - \dot{y_i}| = 0$
 
 ### Derivation of sufficient conditions of synchronization
 
-### Result
+### Conclusion
 :::info
 **Synchronization of Van der Pol oscillator**
 
 Couple Van der Pol oscillators sybchronize asymptotically, if coupling gain $K \geq \mu/N$
 :::
 
-## Discussion with Dr. Brian O’Rourke
+# Discussion with Dr. Brian O’Rourke
 
 :question: What are the sufficient conditions that make synchronized mitochondrial oscillation occur?
 [:memo:Ref]()
@@ -91,7 +94,7 @@ Couple Van der Pol oscillators sybchronize asymptotically, if coupling gain $K \
 
 ## Model
 
-### Assumptions
+## Assumptions
 * Assume there a mitochondrial network poccesses $N$ mitochondria.
 * For each mitochondrion
 
@@ -99,7 +102,7 @@ $$\dot{\phi_{i}} = f(\sum_{j=1}^{N} \phi_{j}, damaged_{i}),$$
 
 for $j=(1,...,N)$, $damaged_{i} = \{0,1\}$
 
-### Objective
+## Objective
 
 * To find the condition that 
 

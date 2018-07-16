@@ -92,6 +92,25 @@ Couple Van der Pol oscillators sybchronize asymptotically, if coupling gain $K \
 
 ### Assumptions
 * Assume there a mitochondrial network poccesses $N$ mitochondria.
-* 
+* For each mitochondrion
+
+$$\dot{\phi_{i}} = f(\sum_{j=1}^{N} \phi_{j}, damaged_{i}),$$
+
+for $j=(1,...,N)$, $damaged_{i} = \{0,1\}$
+
+### Objective
+
+* To find the condition that 
+
+$$|\phi_{i} - \phi_j| = \text{constant}$$ as $t\rightarrow \infty \forall i,j = (1,...,N)$
+
+* To find the condition that 
+
+$$|\phi_{i} - \phi_j| = f(t)$$ 
+as $t\rightarrow \infty \forall i,j = (1,...,N)$
+
+where $\dot{f}(t) \neq 0$
+
+
 
 ## Method

@@ -16,6 +16,9 @@ Today's topic is **network synchronization**.
     - [ ] Asking about single cell mitochondrial oscillation data
 - [ ] Proposal Writing
 :::
+
+> [TOC]
+
 ## Synchronization of coupling oscillator
 
 ## Cluster synchornization in networks of coupled nonidentical dynamical system
@@ -35,14 +38,12 @@ A set of coupled oscillators are said to be *synchronized* if the difference bet
 
 ### Van der Pol oscillatior
 
-#### Single Van der pol oscillator
-
 $$\begin{align}
 \dot{x_{i}} &= \mu (x_{i} - y_{i} - \frac{1}{3}x_{i}^{3}) \\
 \dot{y_{i}} &= \frac{1}{\mu}x_{i}
 \end{align}$$
 
-#### Coupled Van der Pol Oscillator
+### Coupled Van der Pol Oscillator
 
 $$\begin{align}
 \dot{x_{i}} &= \mu (x_{i} - y_{i} - \frac{1}{3}x_{i}^{3}) + K\sum^{N}_{p=1}(x_{p}-x_{i}) \\
@@ -51,16 +52,16 @@ $$\begin{align}
 
 where $i, j = (1,...,N)$
 
-#### Synchronization of coupled Van der pol oscillator
+### Synchronization of coupled Van der pol oscillator
 
 * $|x_j - x_i| = \text{constant}$ as $t\rightarrow \infty \forall i,j=(1,...,N)$
     $\Rightarrow|\dot{x_j} - \dot{x_i}| = 0$
 * $|y_j - y_i| = \text{constant}$ as $t\rightarrow \infty \forall i,j=(1,...,N)$
 $\Rightarrow|\dot{y_j} - \dot{y_i}| = 0$
 
-#### Derivation of sufficient conditions of synchronization
+### Derivation of sufficient conditions of synchronization
 
-##### Result
+### Result
 :::info
 **Synchronization of Van der Pol oscillator**
 

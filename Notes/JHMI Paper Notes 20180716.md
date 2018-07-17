@@ -1,4 +1,4 @@
-# JHMI Paper Notes 20180716
+# JHMI Paper Notes 20180716-18
 :::success
 :memo:**Objectives**
 Today's topic is **network synchronization**. 
@@ -81,6 +81,8 @@ Couple Van der Pol oscillators sybchronize asymptotically, if coupling gain $K \
 
 :bulb: 
 
+::
+
 :::success
 **Modulation of synchronization on mitochondrial oscillation in single cell**
 
@@ -113,7 +115,7 @@ $$|\phi_{i} - \phi_j| = \text{constant}$$ as $t\rightarrow \infty \forall i,j = 
 $$|\phi_{i} - \phi_j| = f(t)$$ 
 as $t\rightarrow \infty \forall i,j = (1,...,N)$
 
-where $\dot{f}(t) \neq 0$
+where $\dot{f}(t) \neq 0$ as $t\rightarrow \infty$
 
 
 
